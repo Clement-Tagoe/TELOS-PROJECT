@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.intro {
+  padding-left: 15px;
+  height: 30px;
+  color: white;
+  background-color: #373434;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+.fas {
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.fa-facebook-square {
+  padding-left: 5px;
+  font-size: 19px;
+  padding-top: 3px;
+  color: #fff;
+}
+
+.fa-facebook-square:hover {
+  color: #4364ab;
+}
+.navbar {
+  margin-top: 30px;
+}
+.navbar-nav li {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navbar-nav li:hover {
+  text-decoration: underline;
+  background-color: #cfe5f5;
+}
+.carousel-inner img {
+  height: 650px;
+}
+.carousel-caption {
+  margin-bottom: 160px;
+  color: #113155;
+}
+img.about {
+  height: 380px;
+}
+.display-4 {
+  margin-top: 40px;
+  margin-bottom: -160px;
+  color: #fff;
+  font-size: 3rem;
+}
+.slogan-text {
+  color: #962f28;
+  text-decoration: underline;
+}
+.about-text {
+  text-align: justify;
+}
+.vision-mission, .offerings {
+  width: 90%;
+  text-align: justify;
+}
+.text-body {
+  width: 550px;
+}
+h2 {
+  color: #113155;
+}
+img.img {
+  border-radius: 5px;
+  height: 320px;
+  width: 550px;
+}
+
+.text-clients, h4 {
+  color: #dd8e08;
+}
+.sap {
+  color: #dfa930;
+}
+.odoo {
+  color: #633b80;
+}
+.text-partners {
+  color: #113155;
+}
+iframe {
+  width: 600px;
+  height: 450px;
+}
+.fa-2x {
+  color: #630b0b;
+}
+hr.light {
+  width: 40%;
+}
+footer {
+  color: #dfa930;
+  background-color: #0f2e52;
+}
+footer hr {
+  width: 50%;
+  background-color: #dfa930;
+}
+footer hr.light-100 {
+  width: 100%;
+}
+.fa-facebook {
+  color: #dfa930;
+  border: 1px solid #dfa930;
+  border-radius: 50%;
+  padding: 5px;
+}
+.fa-2x:hover {
+  color: #4364ab;
+}
+
+@media (max-width: 758px) {
+  .intro {
+    padding-bottom: 45px;
+  }
+  .navbar {
+    margin-top: 45px;
+  }
+  .carousel-inner img {
+    margin-top: 130px;
+    height: 320px;
+  }
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+  .display-2 {
+    font-size: 4.5rem;
+    font-weight: 200;
+    line-height: .8;
+  }
+
+  .slogan-text {
+    font-size: 1.3rem;
+  }
+  .section-1 {
+    font-size: 1.4rem;
+  }
+  img.about {
+    height: 220px;
+  }
+  .display-4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.6rem
+  }
+  img.asa,
+  img.raincoat,
+  img.bajfreight {
+    padding-top: 30px;
+  }
+  iframe {
+    width: 380px;
+    height: 350px;
+  }
+  footer {
+    font-size: .9rem;
+  }
+}
