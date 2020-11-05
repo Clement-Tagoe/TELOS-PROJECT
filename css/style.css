@@ -135,7 +135,7 @@ footer hr.light-100 {
     height: 320px;
   }
   .carousel-caption {
-    margin-bottom: 0px;
+    margin-bottom: -20px;
   }
   .display-2 {
     font-size: 4.5rem;
@@ -144,6 +144,7 @@ footer hr.light-100 {
   }
 
   .slogan-text {
+    margin-top: 10px;
     font-size: 1.3rem;
   }
   .section-1 {
@@ -154,7 +155,7 @@ footer hr.light-100 {
   }
   .display-4 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   h2 {
